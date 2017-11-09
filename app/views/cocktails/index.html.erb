@@ -1,6 +1,7 @@
 <div class="container">
   <div class="row">
     <h1 class="text-center">Cocktails</h1>
+    <%= link_to "Add new Cocktail", new_cocktail_path, class: "text-left" %>
   </div>
   <div class="row">
     <% @cocktails.each do |cocktail| %>
@@ -14,4 +15,3 @@
   </div>
 </div>
 
-<%= link_to "Add new Cocktail", new_cocktail_path %>

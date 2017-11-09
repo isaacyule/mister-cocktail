@@ -32,3 +32,16 @@
   left: 250px;
   top: 135px;
 }
+
+.show-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-doses {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
