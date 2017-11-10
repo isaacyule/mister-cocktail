@@ -1,11 +1,11 @@
 <div class="container">
   <div class="show-heading">
-    <h1 class="text-left"><%= @cocktail.name %></h1>
+    <h1 class="text-left"><%= @cocktail.name.capitalize %></h1>
     <%= link_to "Add Ingredient", new_cocktail_dose_path(@cocktail)  %>
   </div>
   <% @cocktail.doses.each do |dose| %>
     <div class="show-doses">
-      <p><%= dose.description %> - <%= dose.ingredient.name %></p>
+      <p><%= dose.description %> of <%= dose.ingredient.name %></p>
       <%= link_to "[X]", cocktail_dose_path(dose.id), method: :delete %>
     </div>
   <% end %>
