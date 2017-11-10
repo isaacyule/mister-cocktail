@@ -1,0 +1,32 @@
+.cocktail-show {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cocktail-show-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cocktail-show-doses {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
+
+.cocktail-show-info {
+  width: 50%;
+}
+
+.cocktail-show-photo {
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
