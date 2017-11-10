@@ -2,6 +2,7 @@
   <div class="show-heading">
     <h1 class="text-left"><%= @cocktail.name.capitalize %></h1>
     <%= link_to "Add Ingredient", new_cocktail_dose_path(@cocktail)  %>
+    <%= cl_image_tag @cocktail.photo %>
   </div>
   <% @cocktail.doses.each do |dose| %>
     <div class="show-doses">
