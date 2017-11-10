@@ -39,6 +39,7 @@ gem 'bootstrap-sass' # Bootstrap v3
 gem 'font-awesome-sass'
 gem 'simple_form'
 ruby '2.3.5'
+gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
